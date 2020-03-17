@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A103E537241D731400C7F36F /* BeautifulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103E536241D731400C7F36F /* BeautifulView.swift */; };
 		A123CEF824134D1600143D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123CEF724134D1600143D75 /* AppDelegate.swift */; };
 		A123CEFA24134D1600143D75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123CEF924134D1600143D75 /* SceneDelegate.swift */; };
 		A123CEFC24134D1600143D75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123CEFB24134D1600143D75 /* ContentView.swift */; };
 		A123CEFE24134D1800143D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A123CEFD24134D1800143D75 /* Assets.xcassets */; };
 		A123CF0124134D1800143D75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A123CF0024134D1800143D75 /* Preview Assets.xcassets */; };
 		A123CF0424134D1800143D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A123CF0224134D1800143D75 /* LaunchScreen.storyboard */; };
+		A123CF0C241353B500143D75 /* NameInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123CF0B241353B500143D75 /* NameInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A123CEF424134D1600143D75 /* HelloBeautiful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloBeautiful.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A103E536241D731400C7F36F /* BeautifulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulView.swift; sourceTree = "<group>"; };
+		A123CEF424134D1600143D75 /* Hello Beautiful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Beautiful.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A123CEF724134D1600143D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A123CEF924134D1600143D75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A123CEFB24134D1600143D75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +27,8 @@
 		A123CF0024134D1800143D75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A123CF0324134D1800143D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A123CF0524134D1800143D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A123CF0B241353B500143D75 /* NameInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInput.swift; sourceTree = "<group>"; };
+		A1E97128241F14360005AE72 /* Hello Beautiful.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hello Beautiful.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +53,7 @@
 		A123CEF524134D1600143D75 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A123CEF424134D1600143D75 /* HelloBeautiful.app */,
+				A123CEF424134D1600143D75 /* Hello Beautiful.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +61,12 @@
 		A123CEF624134D1600143D75 /* HelloBeautiful */ = {
 			isa = PBXGroup;
 			children = (
+				A1E97128241F14360005AE72 /* Hello Beautiful.entitlements */,
 				A123CEF724134D1600143D75 /* AppDelegate.swift */,
 				A123CEF924134D1600143D75 /* SceneDelegate.swift */,
 				A123CEFB24134D1600143D75 /* ContentView.swift */,
+				A103E536241D731400C7F36F /* BeautifulView.swift */,
+				A123CF0B241353B500143D75 /* NameInput.swift */,
 				A123CEFD24134D1800143D75 /* Assets.xcassets */,
 				A123CF0224134D1800143D75 /* LaunchScreen.storyboard */,
 				A123CF0524134D1800143D75 /* Info.plist */,
@@ -92,7 +100,7 @@
 			);
 			name = HelloBeautiful;
 			productName = HelloBeautiful;
-			productReference = A123CEF424134D1600143D75 /* HelloBeautiful.app */;
+			productReference = A123CEF424134D1600143D75 /* Hello Beautiful.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,6 +157,8 @@
 				A123CEF824134D1600143D75 /* AppDelegate.swift in Sources */,
 				A123CEFA24134D1600143D75 /* SceneDelegate.swift in Sources */,
 				A123CEFC24134D1600143D75 /* ContentView.swift in Sources */,
+				A123CF0C241353B500143D75 /* NameInput.swift in Sources */,
+				A103E537241D731400C7F36F /* BeautifulView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +294,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HelloBeautiful/Hello Beautiful.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloBeautiful/Preview Content\"";
 				DEVELOPMENT_TEAM = 5V5PZUN2HG;
 				ENABLE_PREVIEWS = YES;
@@ -294,7 +306,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = justBearded.HelloBeautiful;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Hello Beautiful";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,7 +317,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HelloBeautiful/Hello Beautiful.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloBeautiful/Preview Content\"";
 				DEVELOPMENT_TEAM = 5V5PZUN2HG;
 				ENABLE_PREVIEWS = YES;
@@ -314,7 +329,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = justBearded.HelloBeautiful;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Hello Beautiful";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

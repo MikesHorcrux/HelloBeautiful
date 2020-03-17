@@ -9,8 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var name: String = ""
+    @State var entered: Bool = false
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            if entered {
+                BeautifulView(name: $name, entered: $entered)
+
+            }else{
+                
+                NameInput(name: $name, entered: $entered)
+            }
+            
+        }
     }
 }
 
