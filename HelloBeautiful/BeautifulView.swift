@@ -26,13 +26,15 @@ struct BeautifulView: View {
                     Text(name)
                         .font(.largeTitle)
                         .fontWeight(.bold)
-                        .padding()
+                        .padding(.bottom)
+                        
                     Text("You are incredibly Beautiful!")
-                        .font(.largeTitle)
-                    .fontWeight(.heavy)
-                    .padding()
+                        .font(.title)
+                        .multilineTextAlignment(.leading)
+                        
                     
                 }
+                .padding()
             
                 
                 Button(action: {
@@ -45,7 +47,7 @@ struct BeautifulView: View {
                             .frame(width: 150, height: 34)
                             
                         Text("Thank You!")
-                            .foregroundColor(.primary)
+                            .foregroundColor(.white)
                             .fontWeight(.semibold)
                             
                     }

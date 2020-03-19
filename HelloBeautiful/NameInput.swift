@@ -28,6 +28,7 @@ struct NameInput: View {
                     
                 Text("What is your name Human?")
                     .font(.title)
+                    .multilineTextAlignment(.leading)
                     
                 }
                 .padding()
